@@ -38,9 +38,9 @@ def setup_package():
           author_email = """kieran.leschinski@unive.ac.at,
                             oliver.czoske@univie.ac.at""",
           url = "http://homepage.univie.ac.at/kieran.leschinski/",
-          package_dir={'simcado': '.'},
+          package_dir={'simcado': 'simcado'},
           packages=['simcado'],
-          package_data = {'simcado': ['data/*']},
+          package_data = {'simcado': ['data/default.conf']},
           )
 
 
